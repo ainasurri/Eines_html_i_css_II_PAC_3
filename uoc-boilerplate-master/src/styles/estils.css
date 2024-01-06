@@ -1,0 +1,7 @@
+@media (768px<=width <=1024) {
+    .barra{
+        ::before {
+            content: " | ";
+          }
+    }
+}
