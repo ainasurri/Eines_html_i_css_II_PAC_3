@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.0 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -770,6 +770,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-upper {
+  --tw-shadow: 0 4px 8px rgba(0, 0, 0, 20%);
+  --tw-shadow-colored: 0 4px 8px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .hover\:text-salmo:hover {
   --tw-text-opacity: 1;
   color: rgb(255 103 82 / var(--tw-text-opacity));
@@ -832,38 +838,24 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:m-10 {
-    margin: 2.5rem;
-  }
-
   .lg\:mb-0 {
     margin-bottom: 0px;
-  }
-
-  .lg\:mr-0 {
-    margin-right: 0px;
-  }
-
-  .lg\:mr-8 {
-    margin-right: 2rem;
   }
 
   .lg\:ml-10 {
     margin-left: 2.5rem;
   }
 
-  @media (min-width: 1024px) {
-    .lg\:lg\:ml-10 {
-      margin-left: 2.5rem;
-    }
-
-    .lg\:lg\:mr-10 {
-      margin-right: 2.5rem;
-    }
+  .lg\:mr-0 {
+    margin-right: 0px;
   }
 
   .lg\:mr-10 {
     margin-right: 2.5rem;
+  }
+
+  .lg\:mr-8 {
+    margin-right: 2rem;
   }
 
   .lg\:w-1\/2 {

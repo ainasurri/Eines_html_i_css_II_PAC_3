@@ -1,7 +1,25 @@
-@media (768px<=width <=1024) {
-    .barra{
-        ::before {
-            content: " | ";
-          }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .custom-h2 {
+      @apply font-bold text-blau text-2xl mb-5 lg:text-4xl;
+    }  
+    .custom-p {
+      @apply text-justify text-blau;
+    }
+    .custom-ul{
+      @apply flex flex-col items-center pl-0 md:flex-row;
+    }  
+    .custom-li {
+      @apply mt-3 md:text-xl md:mr-3;
     }
 }
+
+@media (min-width: 768px) {
+    .barra::before {
+        content: " | ";
+    }
+}
+

@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/index.html", "./src/participants.html"],
   theme: {
     extend: {
+      boxShadow: {
+        'upper': '0 4px 8px rgba(0, 0, 0, 20%)',
+      },
       colors: {
         'gris': '#f7f7f7',
         'blau': '#02055D',
