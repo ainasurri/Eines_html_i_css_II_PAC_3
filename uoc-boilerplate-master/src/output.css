@@ -860,6 +860,10 @@ video {
     width: 100%;
   }
 
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -874,6 +878,10 @@ video {
 
   .lg\:place-content-around {
     place-content: space-around;
+  }
+
+  .lg\:items-center {
+    align-items: center;
   }
 
   .lg\:justify-between {
