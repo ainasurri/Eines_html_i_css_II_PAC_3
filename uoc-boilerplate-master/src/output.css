@@ -703,6 +703,10 @@ video {
   padding-bottom: 2.25rem;
 }
 
+.pl-0 {
+  padding-left: 0px;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -780,6 +784,10 @@ video {
     margin-right: 5rem;
   }
 
+  .md\:mr-3 {
+    margin-right: 0.75rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -811,6 +819,11 @@ video {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
