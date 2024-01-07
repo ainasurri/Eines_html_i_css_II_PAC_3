@@ -1,144 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" type="text/css" href="./output.css">
-  <link href="styles/estils.css" rel="stylesheet">
-  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
-  <title>Tennis League - Participants</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="./output.css" />
+    <link href="styles/estils.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css" />
+    <title>Tennis League - Participants</title>
 </head>
 
 <body class="bg-gris font-lucida m-0">
-  <nav class="pt-5 pb-8 flex flex-col items-center shadow-md lg:flex-row lg:justify-between lg:pl-8 lg:pr-8">
-    <div class="flex flex-row items-start mb-5 lg:mb-0">
-      <img class="w-8 mr-3.5" src="./assets/images/bola.png" alt="">
-      <a href="./index.html">
-        <p class="text-2xl text-blau font-bold">Tennis tournament</p>
-      </a>
-    </div>
-    <div>
-      <ul class="custom-ul">
-        <li class="custom-li "><a class="text-blau hover:text-salmo" href="./participants.html">Participants</a></li>
-        <li class="custom-li barra"><a class="text-blau hover:text-salmo" href="./index.html">Article</a></li>
-        <li class="custom-li barra"><a class="text-blau hover:text-salmo" href="#">Activities</a></li>
-      </ul>
-    </div>
-  </nav>
-  <main>
-    <div class="m-6 flex flex-col md:m-12">
-      <h1 class="text-center text-blau text-3xl font-bold">Tennis League Featured Members</h1>
-      <p class="mt-8 custom-p mb-8  lg:ml-1/5 lg:mr-1/5">In this highly anticipated tennis league, we have a diverse group of
-        contestants,
-        each bringing their unique strengths and strategies to the court. Some are seasoned veterans,
-        while others are rising stars eager to make their mark.
-        The competition promises to be fierce as players from various backgrounds and playing styles converge to
-        showcase their skills.
-        Spectators can expect thrilling rallies, powerful serves, and remarkable finesse as these competitors
-        vie for supremacy in the world of tennis.
-        With the stage set, the outcome of this league remains uncertain, but one thing is for sure -
-        the intensity of the matches will keep everyone on the edge of their seats.</p>
-      <div class="md:flex md:flex-col md:content-evenly md:ml-12 lg:flex-row lg:flex-wrap lg:place-content-around">
-        <div class="flex flex-col items-center mb-14 md:flex-row md:items-center lg:flex-col lg:w-1/4 lg:ml-10 lg:mr-10">
-          <img class="w-5/6 shadow-md m-3 md:w-80 md:mr-20 lg:mr-0" src="../src/assets/images/participants/1.png" alt="Matthew Smith">
-          <div>
-            <h2 class="text-salmo text-center text-2xl font-bold mb-2 md:text-3xl">Matthew Smith</h2>
-            <ul>
-              <li class="text-blau"><span class="font-bold underline">Age</span>: 40</li>
-              <li class="text-blau"><span class="font-bold underline">Expertise</span>: Playing for 10 years</li>
-              <li class="text-blau"><span class="font-bold underline">Style</span>: Aggressive Baseliner</li>
-              <li class="text-blau text-center mt-3 md:text-left">"Can you handle my topspin forehand?"</li>
-            </ul>
-          </div>
+    <nav class="pt-5 pb-8 flex flex-col items-center shadow-md lg:flex-row lg:justify-between lg:pl-8 lg:pr-8">
+        <div class="flex flex-row items-start mb-5 lg:mb-0">
+            <img class="w-8 mr-3.5" src="./assets/images/bola.png" alt="" />
+            <a href="./index.html">
+                <p class="text-2xl text-blau font-bold">Tennis tournament</p>
+            </a>
         </div>
-        <div class="flex flex-col items-center mb-14 md:flex-row md:items-center lg:flex-col lg:w-1/4 lg:ml-10 lg:mr-10">
-          <img class="w-5/6 shadow-md m-3 md:w-80 md:mr-20 lg:mr-0" src="../src/assets/images/participants/2.png" alt="Ginger Montana">
-          <div>
-            <h2 class="text-salmo text-center text-2xl font-bold mb-2 md:text-3xl" >Ginger Montana</h2>
-            <ul>
-              <li class="text-blau"><span class="font-bold underline">Age</span>: 30</li>
-              <li class="text-blau"><span class="font-bold underline">Expertise</span>: Playing for 20 years</li>
-              <li class="text-blau"><span class="font-bold underline">Style</span>: Versatile</li>
-              <li class="text-blau text-center mt-3 md:text-left">"I'm ready to test my skills."</li>
+        <div>
+            <ul class="custom-ul">
+                <li class="custom-li">
+                    <a class="text-blau hover:text-salmo" href="./participants.html">Participants</a>
+                </li>
+                <li class="custom-li barra">
+                    <a class="text-blau hover:text-salmo" href="./index.html">Article</a>
+                </li>
+                <li class="custom-li barra">
+                    <a class="text-blau hover:text-salmo" href="#">Activities</a>
+                </li>
             </ul>
-          </div>
         </div>
-        <div class="flex flex-col items-center mb-14 md:flex-row md:items-center lg:flex-col lg:w-1/4 lg:ml-10 lg:mr-10">
-          <img class="w-5/6 shadow-md m-3 md:w-80 md:mr-20 lg:mr-0" class="participants__people__each__img" src="../src/assets/images/participants/3.png"
-            alt="Pete Harrison">
-          <div>
-            <h2 class="text-salmo text-center text-2xl font-bold mb-2 md:text-3xl" >Pete Harrison</h2>
-            <ul>
-              <li class="text-blau"><span class="font-bold underline">Age</span>: 45</li>
-              <li class="text-blau"><span class="font-bold underline">Expertise</span>: Playing for 12 years</li>
-              <li class="text-blau"><span class="font-bold underline">Style</span>: Defensive/Counterpuncher</li>
-              <li class="text-blau text-center mt-3 md:text-left">"Let's see if you can keep up with my net game."</li>
+    </nav>
+    <main>
+        <div class="m-6 flex flex-col md:m-12">
+            <h1 class="text-center text-blau text-3xl font-bold">
+                Tennis League Featured Members
+            </h1>
+            <p class="mt-8 custom-p mb-8 lg:ml-1/5 lg:mr-1/5">
+                In this highly anticipated tennis league, we have a diverse
+                group of contestants, each bringing their unique strengths
+                and strategies to the court. Some are seasoned veterans,
+                while others are rising stars eager to make their mark. The
+                competition promises to be fierce as players from various
+                backgrounds and playing styles converge to showcase their
+                skills. Spectators can expect thrilling rallies, powerful
+                serves, and remarkable finesse as these competitors vie for
+                supremacy in the world of tennis. With the stage set, the
+                outcome of this league remains uncertain, but one thing is
+                for sure - the intensity of the matches will keep everyone
+                on the edge of their seats.
+            </p>
+            <div
+                class="md:flex md:flex-col md:content-evenly md:ml-12 lg:flex-row lg:flex-wrap lg:place-content-around">
+                <div
+                    class="flex flex-col items-center mb-14 md:flex-row md:items-center lg:flex-col lg:w-1/4 lg:ml-10 lg:mr-10">
+                    <img class="w-5/6 shadow-md m-3 md:w-80 md:mr-20 lg:mr-0"
+                        src="../src/assets/images/participants/1.png" alt="Matthew Smith" />
+                    <div>
+                        <h2 class="text-salmo text-center text-2xl font-bold mb-2 md:text-3xl">
+                            Matthew Smith
+                        </h2>
+                        <ul>
+                            <li class="text-blau"><span class="font-bold underline">Age</span>: 40</li>
+                            <li class="text-blau"><span class="font-bold underline">Expertise</span>: Playing for 10 years</li>
+                            <li class="text-blau"><span class="font-bold underline">Style</span>: Aggressive Baseliner</li>
+                            <li class="text-blau text-center mt-3 md:text-left">"Can you handle my topspin forehand?"</li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col items-center mb-14 md:flex-row md:items-center lg:flex-col lg:w-1/4 lg:ml-10 lg:mr-10">
+                    <img class="w-5/6 shadow-md m-3 md:w-80 md:mr-20 lg:mr-0"
+                        src="../src/assets/images/participants/2.png" alt="Ginger Montana" />
+                    <div>
+                        <h2 class="text-salmo text-center text-2xl font-bold mb-2 md:text-3xl">
+                            Ginger Montana
+                        </h2>
+                        <ul>
+                            <li class="text-blau"><span class="font-bold underline">Age</span>: 30</li>
+                            <li class="text-blau"><span class="font-bold underline">Expertise</span>: Playing for 20 years</li>
+                            <li class="text-blau"><span class="font-bold underline">Style</span>: Versatile</li>
+                            <li class="text-blau text-center mt-3 md:text-left">"I'm ready to test my skills."</li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col items-center mb-14 md:flex-row md:items-center lg:flex-col lg:w-1/4 lg:ml-10 lg:mr-10">
+                    <img class="w-5/6 shadow-md m-3 md:w-80 md:mr-20 lg:mr-0" class="participants__people__each__img"
+                        src="../src/assets/images/participants/3.png" alt="Pete Harrison" />
+                    <div>
+                        <h2 class="text-salmo text-center text-2xl font-bold mb-2 md:text-3xl">
+                            Pete Harrison
+                        </h2>
+                        <ul>
+                            <li class="text-blau"><span class="font-bold underline">Age</span>: 45</li>
+                            <li class="text-blau"><span class="font-bold underline">Expertise</span>: Playing for 12 years</li>
+                            <li class="text-blau"><span class="font-bold underline">Style</span>: Defensive/Counterpuncher</li>
+                            <li class="text-blau text-center mt-3 md:text-left">"Let's see if you can keep up with my net game."</li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col items-center mb-14 md:flex-row md:items-center lg:flex-col lg:w-1/4 lg:ml-10 lg:mr-10">
+                    <img class="w-5/6 shadow-md m-3 md:w-80 md:mr-20 lg:mr-0"
+                        src="../src/assets/images/participants/4.png" alt="Emma Blaise" />
+                    <div>
+                        <h2 class="text-salmo text-center text-2xl font-bold mb-2 md:text-3xl">
+                            Emma Blaise
+                        </h2>
+                        <ul>
+                            <li class="text-blau"><span class="font-bold underline">Age</span>: 40</li>
+                            <li class="text-blau"><span class="font-bold underline">Expertise</span>: Playing for 10 years</li>
+                            <li class="text-blau"><span class="font-bold underline">Style</span>: Attacker</li>
+                            <li class="text-blau text-center mt-3 md:text-left">"Show me what you've got."</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center mb-14 md:flex-row md:items-center lg:flex-col lg:w-1/4 lg:ml-10 lg:mr-10">
+                    <img class="w-5/6 shadow-md m-3 md:w-80 md:mr-20 lg:mr-0"
+                        src="../src/assets/images/participants/5.png" alt="Tom Pherb" />
+                    <div>
+                        <h2 class="text-salmo text-center text-2xl font-bold mb-2 md:text-3xl">
+                            Tom Pherb
+                        </h2>
+                        <ul>
+                            <li class="text-blau"><span class="font-bold underline">Age</span>: 42</li>
+                            <li class="text-blau"><span class="font-bold underline">Expertise</span>: Playing for 2 months</li>
+                            <li class="text-blau"><span class="font-bold underline">Style</span>: Defensive/Counterpuncher</li>
+                            <li class="text-blau text-center mt-3 md:text-left">"Please have mercy."</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center mb-14 md:flex-row md:items-center lg:flex-col lg:w-1/4 lg:ml-10 lg:mr-10">
+                    <img class="w-5/6 shadow-md m-3 md:w-80 md:mr-20 lg:mr-0"
+                        src="../src/assets/images/participants/6.png" alt="Julia Stan" />
+                    <div>
+                        <h2 class="text-salmo text-center text-2xl font-bold mb-2 md:text-3xl">
+                            Julia Stan
+                        </h2>
+                        <ul>
+                            <li class="text-blau"><span class="font-bold underline">Age</span>: 20</li>
+                            <li class="text-blau"><span class="font-bold underline">Expertise</span>: Playing for 1 year</li>
+                            <li class="text-blau"><span class="font-bold underline">Style</span>: Aggressive Baseliner</li>
+                            <li class="text-blau text-center mt-3 md:text-left">"I still have a lot to learn, bet you too!"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="pt-5 pb-5 flex flex-col items-center shadow-upper lg:flex-row lg:justify-between lg:pl-8 lg:pr-8">
+        <div class="flex flex-row items-start mb-5 lg:mb-0">
+            <img class="w-5 mr-3.5" src="./assets/images/bola.png" alt="" />
+            <a href="./index.html">
+                <p class="text-xl text-blau font-bold">Tennis tournament</p>
+            </a>
+        </div>
+        <div>
+            <ul class="custom-ul">
+                <li class="custom-li">
+                    <a class="text-blau hover:text-salmo" href="./participants.html">Participants</a>
+                </li>
+                <li class="custom-li barra">
+                    <a class="text-blau hover:text-salmo" href="./index.html">Article</a>
+                </li>
+                <li class="custom-li barra">
+                    <a class="text-blau hover:text-salmo" href="#">Activities</a>
+                </li>
             </ul>
-          </div>
         </div>
-        <div class="flex flex-col items-center mb-14 md:flex-row md:items-center lg:flex-col lg:w-1/4 lg:ml-10 lg:mr-10">
-          <img class="w-5/6 shadow-md m-3 md:w-80 md:mr-20 lg:mr-0" src="../src/assets/images/participants/4.png" alt="Emma Blaise">
-          <div>
-            <h2 class="text-salmo text-center text-2xl font-bold mb-2 md:text-3xl" >Emma Blaise</h2>
-            <ul>
-              <li class="text-blau"><span class="font-bold underline">Age</span>: 40</li>
-              <li class="text-blau"><span class="font-bold underline">Expertise</span>: Playing for 10 years</li>
-              <li class="text-blau"><span class="font-bold underline">Style</span>: Attacker</li>
-              <li class="text-blau text-center mt-3 md:text-left">"Show me what you've got."</li>
-            </ul>
-          </div>
+        <div class="flex flex-row mt-5 items-center pb-8">
+            <a href="#"><img src="./assets/images/GG.png" alt="Google +" /></a>
+            <a href="#"><img class="ml-3 mr-3" src="./assets/images/FF.png" alt="Facebook" /></a>
+            <a href="#"><img src="./assets/images/TT.png" alt="Twitter" /></a>
         </div>
-        <div class="flex flex-col items-center mb-14 md:flex-row md:items-center lg:flex-col lg:w-1/4 lg:ml-10 lg:mr-10">
-          <img class="w-5/6 shadow-md m-3 md:w-80 md:mr-20 lg:mr-0" src="../src/assets/images/participants/5.png" alt="Tom Pherb">
-          <div>
-            <h2 class="text-salmo text-center text-2xl font-bold mb-2 md:text-3xl" >Tom Pherb</h2>
-            <ul>
-              <li class="text-blau"><span class="font-bold underline">Age</span>: 42</li>
-              <li class="text-blau"><span class="font-bold underline">Expertise</span>: Playing for 2 months</li>
-              <li class="text-blau"><span class="font-bold underline">Style</span>: Defensive/Counterpuncher</li>
-              <li class="text-blau text-center mt-3 md:text-left">"Please have mercy."</li>
-            </ul>
-          </div>
-        </div>
-        <div class="flex flex-col items-center mb-14 md:flex-row md:items-center lg:flex-col lg:w-1/4 lg:ml-10 lg:mr-10">
-          <img class="w-5/6 shadow-md m-3 md:w-80 md:mr-20 lg:mr-0" src="../src/assets/images/participants/6.png" alt="Julia Stan">
-          <div>
-            <h2 class="text-salmo text-center text-2xl font-bold mb-2 md:text-3xl" >Julia Stan</h2>
-            <ul>
-              <li class="text-blau"><span class="font-bold underline">Age</span>: 20</li>
-              <li class="text-blau"><span class="font-bold underline">Expertise</span>: Playing for 1 year</li>
-              <li class="text-blau"><span class="font-bold underline">Style</span>: Aggressive Baseliner</li>
-              <li class="text-blau text-center mt-3 md:text-left">"I still have a lot to learn, bet you too!"</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </main>
-  <footer class="pt-5 pb-5 flex flex-col items-center shadow-upper lg:flex-row lg:justify-between lg:pl-8 lg:pr-8">
-    <div class="flex flex-row items-start mb-5 lg:mb-0">
-      <img class="w-5 mr-3.5" src="./assets/images/bola.png" alt="">
-      <a href="./index.html">
-        <p class="text-xl text-blau font-bold">Tennis tournament</p>
-      </a>
-    </div>
-    <div>
-      <ul class="custom-ul">
-        <li class="custom-li"><a class="text-blau hover:text-salmo" href="./participants.html">Participants</a></li>
-        <li class="custom-li barra"><a class="text-blau hover:text-salmo" href="./index.html">Article</a></li>
-        <li class="custom-li barra"><a class="text-blau hover:text-salmo" href="#">Activities</a></li>
-      </ul>
-    </div>
-    <div class="flex flex-row mt-5 items-center pb-8">
-      <a href="#"><img src="./assets/images/GG.png" alt="Google +"></a>
-      <a href="#"><img class="ml-3 mr-3" src="./assets/images/FF.png" alt="Facebook"></a>
-      <a href="#"><img src="./assets/images/TT.png" alt="Twitter"></a>
-    </div>
-  </footer>
-  <script type="module" src="./assets/scripts/main.js"></script>
+    </footer>
+    <script type="module" src="./assets/scripts/main.js"></script>
 </body>
 
 </html>
